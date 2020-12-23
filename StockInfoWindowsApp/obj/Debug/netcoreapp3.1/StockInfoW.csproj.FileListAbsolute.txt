@@ -1,0 +1,14 @@
+C:\Users\david\source\repos\StockInfo\StockInfoW\bin\Debug\netcoreapp3.1\StockInfoW.exe
+C:\Users\david\source\repos\StockInfo\StockInfoW\bin\Debug\netcoreapp3.1\StockInfoW.deps.json
+C:\Users\david\source\repos\StockInfo\StockInfoW\bin\Debug\netcoreapp3.1\StockInfoW.runtimeconfig.json
+C:\Users\david\source\repos\StockInfo\StockInfoW\bin\Debug\netcoreapp3.1\StockInfoW.runtimeconfig.dev.json
+C:\Users\david\source\repos\StockInfo\StockInfoW\bin\Debug\netcoreapp3.1\StockInfoW.dll
+C:\Users\david\source\repos\StockInfo\StockInfoW\bin\Debug\netcoreapp3.1\StockInfoW.pdb
+C:\Users\david\source\repos\StockInfo\StockInfoW\obj\Debug\netcoreapp3.1\StockInfoW.Form1.resources
+C:\Users\david\source\repos\StockInfo\StockInfoW\obj\Debug\netcoreapp3.1\StockInfoW.csproj.GenerateResource.cache
+C:\Users\david\source\repos\StockInfo\StockInfoW\obj\Debug\netcoreapp3.1\StockInfoW.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\StockInfo\StockInfoW\obj\Debug\netcoreapp3.1\StockInfoW.AssemblyInfo.cs
+C:\Users\david\source\repos\StockInfo\StockInfoW\obj\Debug\netcoreapp3.1\StockInfoW.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\StockInfo\StockInfoW\obj\Debug\netcoreapp3.1\StockInfoW.dll
+C:\Users\david\source\repos\StockInfo\StockInfoW\obj\Debug\netcoreapp3.1\StockInfoW.pdb
+C:\Users\david\source\repos\StockInfo\StockInfoW\obj\Debug\netcoreapp3.1\StockInfoW.genruntimeconfig.cache

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "cLt4Nh4+t0Q0CaPO18VFcIbdoUhFov3OKn/Wbs5ZqZOwHX3/btG5T7pt20Xn5MFrWhNMtlgAAhgrEunUDRpPGw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\david\\source\\repos\\StockInfo\\StockInfoWindowsApp\\StockInfoWindowsApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\david\\.nuget\\packages\\restsharp\\106.11.7\\restsharp.106.11.7.nupkg.sha512"
+  ],
+  "logs": []
+}

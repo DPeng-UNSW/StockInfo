@@ -1,0 +1,15 @@
+C:\Users\david\source\repos\StockInfo\StockInfo\obj\Debug\netcoreapp3.1\StockInfo.csprojAssemblyReference.cache
+C:\Users\david\source\repos\StockInfo\StockInfo\obj\Debug\netcoreapp3.1\StockInfo.AssemblyInfoInputs.cache
+C:\Users\david\source\repos\StockInfo\StockInfo\obj\Debug\netcoreapp3.1\StockInfo.AssemblyInfo.cs
+C:\Users\david\source\repos\StockInfo\StockInfo\obj\Debug\netcoreapp3.1\StockInfo.csproj.CoreCompileInputs.cache
+C:\Users\david\source\repos\StockInfo\StockInfo\bin\Debug\netcoreapp3.1\StockInfo.exe
+C:\Users\david\source\repos\StockInfo\StockInfo\bin\Debug\netcoreapp3.1\StockInfo.deps.json
+C:\Users\david\source\repos\StockInfo\StockInfo\bin\Debug\netcoreapp3.1\StockInfo.runtimeconfig.json
+C:\Users\david\source\repos\StockInfo\StockInfo\bin\Debug\netcoreapp3.1\StockInfo.runtimeconfig.dev.json
+C:\Users\david\source\repos\StockInfo\StockInfo\bin\Debug\netcoreapp3.1\StockInfo.dll
+C:\Users\david\source\repos\StockInfo\StockInfo\bin\Debug\netcoreapp3.1\StockInfo.pdb
+C:\Users\david\source\repos\StockInfo\StockInfo\bin\Debug\netcoreapp3.1\RestSharp.dll
+C:\Users\david\source\repos\StockInfo\StockInfo\obj\Debug\netcoreapp3.1\StockInfo.csproj.CopyComplete
+C:\Users\david\source\repos\StockInfo\StockInfo\obj\Debug\netcoreapp3.1\StockInfo.dll
+C:\Users\david\source\repos\StockInfo\StockInfo\obj\Debug\netcoreapp3.1\StockInfo.pdb
+C:\Users\david\source\repos\StockInfo\StockInfo\obj\Debug\netcoreapp3.1\StockInfo.genruntimeconfig.cache
