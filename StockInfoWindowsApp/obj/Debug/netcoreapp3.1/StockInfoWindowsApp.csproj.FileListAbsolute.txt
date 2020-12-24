@@ -1,4 +1,3 @@
-C:\Users\david\source\repos\StockInfo\StockInfoWindowsApp\obj\Debug\netcoreapp3.1\StockInfoWindowsApp.csprojAssemblyReference.cache
 C:\Users\david\source\repos\StockInfo\StockInfoWindowsApp\obj\Debug\netcoreapp3.1\StockInfoW.Form1.resources
 C:\Users\david\source\repos\StockInfo\StockInfoWindowsApp\obj\Debug\netcoreapp3.1\StockInfoWindowsApp.csproj.GenerateResource.cache
 C:\Users\david\source\repos\StockInfo\StockInfoWindowsApp\obj\Debug\netcoreapp3.1\StockInfoWindowsApp.AssemblyInfoInputs.cache
@@ -15,3 +14,7 @@ C:\Users\david\source\repos\StockInfo\StockInfoWindowsApp\obj\Debug\netcoreapp3.
 C:\Users\david\source\repos\StockInfo\StockInfoWindowsApp\obj\Debug\netcoreapp3.1\StockInfoWindowsApp.dll
 C:\Users\david\source\repos\StockInfo\StockInfoWindowsApp\obj\Debug\netcoreapp3.1\StockInfoWindowsApp.pdb
 C:\Users\david\source\repos\StockInfo\StockInfoWindowsApp\obj\Debug\netcoreapp3.1\StockInfoWindowsApp.genruntimeconfig.cache
+C:\Users\david\source\repos\StockInfo\StockInfoWindowsApp\bin\Debug\netcoreapp3.1\LiveCharts.dll
+C:\Users\david\source\repos\StockInfo\StockInfoWindowsApp\bin\Debug\netcoreapp3.1\LiveCharts.WinForms.dll
+C:\Users\david\source\repos\StockInfo\StockInfoWindowsApp\bin\Debug\netcoreapp3.1\LiveCharts.Wpf.dll
+C:\Users\david\source\repos\StockInfo\StockInfoWindowsApp\obj\Debug\netcoreapp3.1\StockInfoWindowsApp.csprojAssemblyReference.cache

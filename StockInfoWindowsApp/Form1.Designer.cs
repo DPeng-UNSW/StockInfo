@@ -31,6 +31,7 @@ namespace StockInfoW
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabStockInfo = new System.Windows.Forms.TabPage();
+            this.btnRemove = new System.Windows.Forms.Button();
             this.tabStocks = new System.Windows.Forms.TabControl();
             this.textStock1 = new System.Windows.Forms.TextBox();
             this.btnGetStock1 = new System.Windows.Forms.Button();
@@ -58,6 +59,7 @@ namespace StockInfoW
             // 
             // tabStockInfo
             // 
+            this.tabStockInfo.Controls.Add(this.btnRemove);
             this.tabStockInfo.Controls.Add(this.tabStocks);
             this.tabStockInfo.Controls.Add(this.textStock1);
             this.tabStockInfo.Controls.Add(this.btnGetStock1);
@@ -67,6 +69,16 @@ namespace StockInfoW
             this.tabStockInfo.TabIndex = 0;
             this.tabStockInfo.Text = "Stock Information";
             this.tabStockInfo.UseVisualStyleBackColor = true;
+            // 
+            // btnRemove
+            // 
+            this.btnRemove.Location = new System.Drawing.Point(42, 139);
+            this.btnRemove.Name = "btnRemove";
+            this.btnRemove.Size = new System.Drawing.Size(142, 51);
+            this.btnRemove.TabIndex = 3;
+            this.btnRemove.Text = "Remove Company";
+            this.btnRemove.UseVisualStyleBackColor = true;
+            this.btnRemove.Click += new System.EventHandler(this.btnRemove_Click);
             // 
             // tabStocks
             // 
@@ -148,6 +160,7 @@ namespace StockInfoW
         private System.Windows.Forms.Button btnGetStock1;
         private System.Windows.Forms.TextBox textStock1;
         private System.Windows.Forms.TabControl tabStocks;
+        private System.Windows.Forms.Button btnRemove;
     }
 }
 
