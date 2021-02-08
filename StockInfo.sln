@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30804.86
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockInfo", "StockInfo\StockInfo.csproj", "{98317E14-1750-47F3-9CBA-7AE88C83D063}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockInfoWindowsApp", "StockInfoWindowsApp\StockInfoWindowsApp.csproj", "{DF643D7A-738F-4573-BCB5-E0867ABCE2CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StockInfoWindowsApp", "StockInfoWindowsApp\StockInfoWindowsApp.csproj", "{DF643D7A-738F-4573-BCB5-E0867ABCE2CD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

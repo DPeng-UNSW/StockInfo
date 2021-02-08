@@ -79,5 +79,17 @@ namespace StockInfoW
         {
             tabStocks.SelectedTab.Dispose();
         }
+
+        private void btnWatchList_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnRefresh_Click(object sender, EventArgs e)
+        {
+            textStock1.Text = tabStocks.SelectedTab.Text;
+            tabStocks.SelectedTab.Dispose();
+            btnGetStock1.PerformClick();
+        }
     }
 }

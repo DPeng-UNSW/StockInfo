@@ -31,15 +31,20 @@ namespace StockInfoW
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabStockInfo = new System.Windows.Forms.TabPage();
+            this.btnRefresh = new System.Windows.Forms.Button();
             this.btnRemove = new System.Windows.Forms.Button();
             this.tabStocks = new System.Windows.Forms.TabControl();
             this.textStock1 = new System.Windows.Forms.TextBox();
             this.btnGetStock1 = new System.Windows.Forms.Button();
             this.tabWatchList = new System.Windows.Forms.TabPage();
-            this.tabWLExtensive = new System.Windows.Forms.TabPage();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.btnWatchList = new System.Windows.Forms.Button();
+            this.listWatch = new System.Windows.Forms.ListBox();
             this.tabMyPortfolio = new System.Windows.Forms.TabPage();
+            this.tabTest = new System.Windows.Forms.TabPage();
             this.tabControl1.SuspendLayout();
             this.tabStockInfo.SuspendLayout();
+            this.tabWatchList.SuspendLayout();
             this.SuspendLayout();
             // 
             // tabControl1
@@ -49,8 +54,8 @@ namespace StockInfoW
             | System.Windows.Forms.AnchorStyles.Right)));
             this.tabControl1.Controls.Add(this.tabStockInfo);
             this.tabControl1.Controls.Add(this.tabWatchList);
-            this.tabControl1.Controls.Add(this.tabWLExtensive);
             this.tabControl1.Controls.Add(this.tabMyPortfolio);
+            this.tabControl1.Controls.Add(this.tabTest);
             this.tabControl1.Location = new System.Drawing.Point(0, 3);
             this.tabControl1.Name = "tabControl1";
             this.tabControl1.SelectedIndex = 0;
@@ -59,6 +64,7 @@ namespace StockInfoW
             // 
             // tabStockInfo
             // 
+            this.tabStockInfo.Controls.Add(this.btnRefresh);
             this.tabStockInfo.Controls.Add(this.btnRemove);
             this.tabStockInfo.Controls.Add(this.tabStocks);
             this.tabStockInfo.Controls.Add(this.textStock1);
@@ -69,6 +75,16 @@ namespace StockInfoW
             this.tabStockInfo.TabIndex = 0;
             this.tabStockInfo.Text = "Stock Information";
             this.tabStockInfo.UseVisualStyleBackColor = true;
+            // 
+            // btnRefresh
+            // 
+            this.btnRefresh.Location = new System.Drawing.Point(42, 201);
+            this.btnRefresh.Name = "btnRefresh";
+            this.btnRefresh.Size = new System.Drawing.Size(142, 45);
+            this.btnRefresh.TabIndex = 4;
+            this.btnRefresh.Text = "Refresh";
+            this.btnRefresh.UseVisualStyleBackColor = true;
+            this.btnRefresh.Click += new System.EventHandler(this.btnRefresh_Click);
             // 
             // btnRemove
             // 
@@ -100,6 +116,7 @@ namespace StockInfoW
             // 
             // btnGetStock1
             // 
+            this.btnGetStock1.BackColor = System.Drawing.Color.Transparent;
             this.btnGetStock1.Location = new System.Drawing.Point(42, 82);
             this.btnGetStock1.Name = "btnGetStock1";
             this.btnGetStock1.Size = new System.Drawing.Size(143, 51);
@@ -110,6 +127,9 @@ namespace StockInfoW
             // 
             // tabWatchList
             // 
+            this.tabWatchList.Controls.Add(this.textBox1);
+            this.tabWatchList.Controls.Add(this.btnWatchList);
+            this.tabWatchList.Controls.Add(this.listWatch);
             this.tabWatchList.Location = new System.Drawing.Point(4, 29);
             this.tabWatchList.Name = "tabWatchList";
             this.tabWatchList.Size = new System.Drawing.Size(1009, 495);
@@ -117,14 +137,32 @@ namespace StockInfoW
             this.tabWatchList.Text = "My Watch List";
             this.tabWatchList.UseVisualStyleBackColor = true;
             // 
-            // tabWLExtensive
+            // textBox1
             // 
-            this.tabWLExtensive.Location = new System.Drawing.Point(4, 29);
-            this.tabWLExtensive.Name = "tabWLExtensive";
-            this.tabWLExtensive.Size = new System.Drawing.Size(1009, 495);
-            this.tabWLExtensive.TabIndex = 3;
-            this.tabWLExtensive.Text = "Watch List Extensive";
-            this.tabWLExtensive.UseVisualStyleBackColor = true;
+            this.textBox1.Location = new System.Drawing.Point(32, 48);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(125, 27);
+            this.textBox1.TabIndex = 2;
+            // 
+            // btnWatchList
+            // 
+            this.btnWatchList.Location = new System.Drawing.Point(32, 81);
+            this.btnWatchList.Name = "btnWatchList";
+            this.btnWatchList.Size = new System.Drawing.Size(125, 52);
+            this.btnWatchList.TabIndex = 1;
+            this.btnWatchList.Text = "Add to WatchList";
+            this.btnWatchList.UseMnemonic = false;
+            this.btnWatchList.UseVisualStyleBackColor = true;
+            this.btnWatchList.Click += new System.EventHandler(this.btnWatchList_Click);
+            // 
+            // listWatch
+            // 
+            this.listWatch.FormattingEnabled = true;
+            this.listWatch.ItemHeight = 20;
+            this.listWatch.Location = new System.Drawing.Point(180, 48);
+            this.listWatch.Name = "listWatch";
+            this.listWatch.Size = new System.Drawing.Size(769, 404);
+            this.listWatch.TabIndex = 0;
             // 
             // tabMyPortfolio
             // 
@@ -134,6 +172,15 @@ namespace StockInfoW
             this.tabMyPortfolio.TabIndex = 2;
             this.tabMyPortfolio.Text = "My Portfolio";
             this.tabMyPortfolio.UseVisualStyleBackColor = true;
+            // 
+            // tabTest
+            // 
+            this.tabTest.Location = new System.Drawing.Point(4, 29);
+            this.tabTest.Name = "tabTest";
+            this.tabTest.Size = new System.Drawing.Size(1009, 495);
+            this.tabTest.TabIndex = 3;
+            this.tabTest.Text = "TEST";
+            this.tabTest.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
@@ -147,6 +194,8 @@ namespace StockInfoW
             this.tabControl1.ResumeLayout(false);
             this.tabStockInfo.ResumeLayout(false);
             this.tabStockInfo.PerformLayout();
+            this.tabWatchList.ResumeLayout(false);
+            this.tabWatchList.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -155,12 +204,16 @@ namespace StockInfoW
         private System.Windows.Forms.TabControl tabControl1;
         private System.Windows.Forms.TabPage tabStockInfo;
         private System.Windows.Forms.TabPage tabWatchList;
-        private System.Windows.Forms.TabPage tabWLExtensive;
         private System.Windows.Forms.TabPage tabMyPortfolio;
         private System.Windows.Forms.Button btnGetStock1;
         private System.Windows.Forms.TextBox textStock1;
         private System.Windows.Forms.TabControl tabStocks;
         private System.Windows.Forms.Button btnRemove;
+        private System.Windows.Forms.Button btnWatchList;
+        private System.Windows.Forms.ListBox listWatch;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Button btnRefresh;
+        private System.Windows.Forms.TabPage tabTest;
     }
 }
 
